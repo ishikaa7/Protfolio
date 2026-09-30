@@ -1,0 +1,37 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.17.0
+2 info using node@v24.19.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Ishika\Documents\Codex\2026-09-30\files-pasted-by-the-user-build\outputs\.npmrc
+5 silly config load:file:C:\Users\Ishika\.npmrc
+6 silly config load:file:C:\Users\Ishika\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install gsap
+8 verbose argv "install" "gsap" "--save" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Ishika\Documents\Codex\2026-09-30\files-pasted-by-the-user-build\outputs\.npm-cache\_logs\2026-09-30T17_48_23_911Z-
+10 verbose logfile C:\Users\Ishika\Documents\Codex\2026-09-30\files-pasted-by-the-user-build\outputs\.npm-cache\_logs\2026-09-30T17_48_23_911Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly allow-scripts no package.json at prefix Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\Ishika\Documents\Codex\2026-09-30\files-pasted-by-the-user-build\outputs\package.json'
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 silly idealTree buildDeps
+15 silly fetch manifest gsap@*
+16 silly packumentCache full:https://registry.npmjs.org/gsap cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/gsap 3359ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/gsap set size:undefined disposed:false
+19 silly placeDep ROOT gsap@3.15.0 OK for:  want: *
+20 silly reify moves {}
+21 http cache gsap@https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz 0ms (cache hit)
+22 silly tarball no local data for gsap@https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz. Extracting by manifest.
+23 http fetch GET 200 https://registry.npmjs.org/npm 3996ms
+24 http fetch GET 200 https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz 11136ms (cache miss)
+25 silly ADD node_modules/gsap
+26 verbose cwd C:\Users\Ishika\Documents\Codex\2026-09-30\files-pasted-by-the-user-build\outputs
+27 verbose os Windows_NT 10.0.26200
+28 verbose node v24.19.0
+29 verbose npm  v11.17.0
+30 notice
+30 notice New major version of npm available! 11.17.0 -> 12.2.0
+30 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+30 notice To update run: npm install -g npm@12.2.0
+30 notice  { force: true, Symbol(proc-log.meta): true }
+31 verbose exit 0
+32 info ok
