@@ -1,60 +1,1746 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta name="theme-color" content="#f5f4f0">
+
   <title>Ishika Bhute — AI × Software × Product</title>
-  <meta name="description" content="Ishika Bhute is a Computer Engineering student building AI-powered products, intelligent systems, and thoughtful digital experiences.">
-  <meta property="og:type" content="website"><meta property="og:title" content="Ishika Bhute — AI × Software × Product"><meta property="og:description" content="Computer Engineering student exploring AI, software engineering, and product design."><meta property="og:image" content="public/assets/profile/photo.jpeg">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+
+  <meta
+    name="description"
+    content="Ishika Bhute is a Computer Engineering student building AI-powered products, intelligent systems, and thoughtful digital experiences."
+  >
+
+  <meta property="og:type" content="website">
+  <meta
+    property="og:title"
+    content="Ishika Bhute — AI × Software × Product"
+  >
+  <meta
+    property="og:description"
+    content="Computer Engineering student exploring AI, software engineering, and product design."
+  >
+  <meta
+    property="og:image"
+    content="public/assets/profile/photo.jpeg"
+  >
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!--
+    Portfolio image paths.
+    Multiple candidates are kept so the site can work
+    from different static hosting configurations.
+  -->
   <script>
-    // Local files live in public/assets. Each path lists candidates so the site works
-    // whether it is served from the project root or from public/ (first one that loads wins).
     window.portfolioImages = {
-      profile: ["public/assets/profile/photo.jpeg", "assets/profile/photo.jpeg"],
+
+      profile: [
+        "public/assets/profile/photo.jpeg",
+        "assets/profile/photo.jpeg"
+      ],
+
       projects: {
-        vriddhi: ["public/assets/projects/vriddhi.png", "assets/projects/vriddhi.png"],
-        livenessAI: ["public/assets/projects/liveness-ai.png", "assets/projects/liveness-ai.png"],
-        sycaudit: ["public/assets/projects/sycaudit.png", "assets/projects/sycaudit.png"],
-        pathwayGenAI: ["public/assets/projects/pathway-gen-ai.png", "assets/projects/pathway-gen-ai.png"],
-        diabetes: ["public/assets/projects/diabetes.png", "assets/projects/diabetes.png"],
-        drowsiness: ["public/assets/projects/drowsiness.png", "assets/projects/drowsiness.png"],
+
+        vriddhi: [
+          "public/assets/projects/vriddhi.png",
+          "assets/projects/vriddhi.png"
+        ],
+
+        livenessAI: [
+          "public/assets/projects/liveness-ai.png",
+          "assets/projects/liveness-ai.png"
+        ],
+
+        sycaudit: [
+          "public/assets/projects/sycaudit.png",
+          "assets/projects/sycaudit.png"
+        ],
+
+        pathwayGenAI: [
+          "public/assets/projects/pathway-gen-ai.png",
+          "assets/projects/pathway-gen-ai.png"
+        ],
+
+        diabetes: [
+          "public/assets/projects/diabetes.png",
+          "assets/projects/diabetes.png"
+        ],
+
+        drowsiness: [
+          "public/assets/projects/drowsiness.png",
+          "assets/projects/drowsiness.png"
+        ]
+
       },
+
       certificates: {
-        javaProgramming: ["public/assets/projects/certificates/java-programming.png", "assets/projects/certificates/java-programming.png"],
-        designAnalysisAlgorithms: ["public/assets/projects/certificates/design-analysis-algorithms.pdf", "assets/projects/certificates/design-analysis-algorithms.pdf"],
-        python: ["public/assets/projects/certificates/python-geeksforgeeks.pdf", "assets/projects/certificates/python-geeksforgeeks.pdf"],
-      },
+
+        javaProgramming: [
+          "public/assets/projects/certificates/java-programming.png",
+          "assets/projects/certificates/java-programming.png"
+        ],
+
+        designAnalysisAlgorithms: [
+          "public/assets/projects/certificates/design-analysis-algorithms.pdf",
+          "assets/projects/certificates/design-analysis-algorithms.pdf"
+        ],
+
+        python: [
+          "public/assets/projects/certificates/python-geeksforgeeks.pdf",
+          "assets/projects/certificates/python-geeksforgeeks.pdf"
+        ]
+
+      }
+
     };
   </script>
 
 </head>
+
+
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="nav-wrap"><nav class="nav" aria-label="Main navigation"><a class="wordmark" href="#intro">ISHIKA BHUTE<span> / PORTFOLIO</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><i></i><i></i></button><div class="nav-links" id="nav-links"><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#projects">PROJECTS</a><a href="#certifications">CERTIFICATIONS</a><a href="#contact">CONTACT</a></div></nav></header>
+
+  <!-- Skip navigation -->
+  <a class="skip-link" href="#main">
+    Skip to content
+  </a>
+
+
+  <!-- =========================================================
+       NAVIGATION
+  ========================================================== -->
+
+  <header class="nav-wrap">
+
+    <nav
+      class="nav"
+      aria-label="Main navigation"
+    >
+
+      <a
+        class="wordmark"
+        href="#intro"
+      >
+        ISHIKA BHUTE<span> / PORTFOLIO</span>
+      </a>
+
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Open navigation"
+      >
+        <i></i>
+        <i></i>
+      </button>
+
+
+      <div
+        class="nav-links"
+        id="nav-links"
+      >
+
+        <a href="#about">
+          ABOUT
+        </a>
+
+        <a href="#skills">
+          SKILLS
+        </a>
+
+        <a href="#projects">
+          PROJECTS
+        </a>
+
+        <a href="#certifications">
+          CERTIFICATIONS
+        </a>
+
+        <a href="#contact">
+          CONTACT
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
   <main id="main">
-    <section class="hero section" id="intro" aria-labelledby="hero-title"><div class="hero-top mono"><span>AI / ML&nbsp;&nbsp; · &nbsp;&nbsp;SOFTWARE ENGINEERING&nbsp;&nbsp; · &nbsp;&nbsp;PRODUCT DESIGN</span><span>BASED IN MUMBAI, INDIA</span></div><div class="hero-copy"><p class="eyebrow">COMPUTER ENGINEERING · BUILDING WITH INTENT</p><h1 id="hero-title">I BUILD<br><span class="hero-accent">INTELLIGENT</span><br>PRODUCTS<span class="period">.</span></h1><div class="hero-bottom"><div><p class="hero-lede">Computer Engineering student exploring the intersection of Artificial Intelligence, software engineering, and product design.</p><p class="hero-detail">I enjoy turning complex problems into practical, user-focused systems — from AI-powered applications and machine learning models to full-stack products.</p></div></div></div><a class="scroll-note mono" href="#about">SCROLL TO EXPLORE <span>↓</span></a><span class="hero-index mono">01 — 06</span></section>
-    <section class="section about" id="about"><div class="section-head"><span class="section-number mono">01 / ABOUT</span><h2><span class="text-rise"><span>Curiosity,</span></span><br><span class="text-rise"><span>made tangible.</span></span></h2></div><div class="about-content"><div class="about-text"><p class="lead">I'm Ishika Bhute, a Computer Engineering student interested in building technology that solves real problems.</p><p>My interests sit at the intersection of Artificial Intelligence, software engineering, and product design. I enjoy working across the stack — understanding a problem, designing the experience, building the system, and experimenting with the technology behind it.</p><p>I've worked on projects involving machine learning, computer vision, generative AI, full-stack development, and data-driven applications. I'm particularly interested in how intelligent systems can be turned into products that are useful, scalable, and easy to use.</p><p>Currently, I'm strengthening my foundations in data structures and algorithms, machine learning, systems, and modern web technologies while building projects that challenge me beyond coursework.</p></div><aside class="explore"><h3 class="mono">CURRENTLY EXPLORING</h3><ul><li>Artificial Intelligence</li><li>Machine Learning</li><li>Generative AI</li><li>Full-Stack Development</li><li>Product Design</li><li>Computer Vision</li></ul></aside></div></section>
-    <section class="section skills" id="skills"><div class="section-head"><span class="section-number mono">02 / TOOLKIT</span><h2><span class="text-rise"><span>Technical</span></span><br><span class="text-rise"><span>skills.</span></span></h2><p class="section-intro">A growing toolkit for moving from a clear problem to a working product.</p></div><div class="skill-groups">
-      <div class="skill-row"><h3 class="mono">PROGRAMMING</h3><p>Python <span>·</span> Java <span>·</span> C <span>·</span> JavaScript <span>·</span> TypeScript <span>·</span> SQL</p></div>
-      <div class="skill-row"><h3 class="mono">AI / MACHINE LEARNING</h3><p>Machine Learning <span>·</span> Deep Learning <span>·</span> Generative AI <span>·</span> Computer Vision <span>·</span> Data Analysis <span>·</span> NumPy <span>·</span> Pandas <span>·</span> Matplotlib <span>·</span> Scikit-learn</p></div>
-      <div class="skill-row"><h3 class="mono">WEB DEVELOPMENT</h3><p>React <span>·</span> Next.js <span>·</span> Tailwind CSS <span>·</span> FastAPI <span>·</span> Node.js <span>·</span> REST APIs</p></div>
-      <div class="skill-row"><h3 class="mono">DATABASES</h3><p>MySQL <span>·</span> PostgreSQL <span>·</span> Supabase</p></div>
-      <div class="skill-row"><h3 class="mono">TOOLS</h3><p>Git <span>·</span> GitHub <span>·</span> VS Code <span>·</span> Figma</p></div>
-      <div class="skill-row"><h3 class="mono">CORE COMPUTER SCIENCE</h3><p>Data Structures &amp; Algorithms <span>·</span> Object-Oriented Programming <span>·</span> DBMS <span>·</span> Computer Networks <span>·</span> Operating Systems <span>·</span> Automata Theory</p></div>
-    </div></section>
-    <section class="section projects" id="projects"><div class="section-head projects-heading"><span class="section-number mono">SELECTED WORK</span><h2><span class="text-rise"><span>A collection of systems,</span></span><br><span class="text-rise"><span>experiments and products</span></span><br><span class="text-rise"><span>I've built.</span></span></h2><p class="section-intro mono">SCROLL TO EXPLORE ↓</p></div><div class="path-wrap" aria-hidden="true"><svg viewBox="0 0 100 900" preserveAspectRatio="none"><path class="path-base" d="M50 0 C50 70 12 55 12 120 S88 185 88 250 S12 315 12 380 S88 445 88 510 S12 575 12 640 S88 705 88 770 S50 820 50 900"/><path class="path-progress" d="M50 0 C50 70 12 55 12 120 S88 185 88 250 S12 315 12 380 S88 445 88 510 S12 575 12 640 S88 705 88 770 S50 820 50 900"/></svg></div><div class="project-list">
-      <article class="project" data-project="01"><div class="project-visual visual-vriddhi"><div class="visual-top mono"><span>MARKET SIGNALS / 01</span><span>INTELLIGENCE PLATFORM</span></div><div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div><div class="visual-core">V<span>↗</span></div><div class="visual-caption mono">LOCAL CONTEXT. CLEARER DECISIONS.</div></div><div class="project-info"><div class="project-meta mono"><span>01 / AI · FULL STACK · PRODUCT</span><span class="status status-building">BUILDING</span></div><h3>VRIDDHI</h3><h4>Hyper-Local AI Market Intelligence &amp; Advisory Platform</h4><p>An AI-powered decision-support platform combining hyper-local market intelligence, opportunity analysis, financial planning, competitor insights, and AI-driven advisory to help small businesses and rural entrepreneurs make informed decisions.</p><div class="tags">Next.js <span>React</span><span>FastAPI</span><span>Python</span><span>Supabase</span><span>Gemini</span></div></div></article>
-      <article class="project project-reverse" data-project="02"><div class="project-visual visual-pathway"><div class="visual-top mono"><span>BRAND STUDIO / 02</span><span>GENERATIVE IDENTITY</span></div><div class="brand-card"><span class="mono">BRAND / CONCEPT 004</span><b>form<span>folk</span></b><i>Objects for everyday rituals.</i><div class="brand-swatches"><i></i><i></i><i></i><i></i></div></div><div class="visual-caption mono">INPUT → IDENTITY</div></div><div class="project-info"><div class="project-meta mono"><span>02 / GENERATIVE AI · PRODUCT · FRONTEND</span><span class="status status-built">BUILT</span></div><h3>PATHWAY GEN AI</h3><h4>AI-Powered Brand Identity Generator</h4><p>A generative AI platform that transforms business inputs into structured brand identities, helping users explore brand names, positioning, taglines, and visual direction through an interactive product experience.</p><div class="tags">React <span>Tailwind CSS</span><span>Generative AI</span><span>JavaScript</span></div></div></article>
-      <article class="project" data-project="03"><div class="project-visual visual-liveness"><div class="visual-top mono"><span>MEDIA INTEGRITY / 03</span><span>MULTIMODAL ANALYSIS</span></div><div class="scan-frame"><div class="scan-grid"></div><div class="scan-face"><i></i><i></i><b></b></div><div class="scan-line"></div><span class="scan-label mono">FRAME ANALYSIS / ACTIVE</span></div><div class="pipeline mono"><span>IMAGE</span><span>VIDEO</span><span>AUDIO</span></div></div><div class="project-info"><div class="project-meta mono"><span>03 / DEEP LEARNING · COMPUTER VISION · AUDIO AI</span><span class="status status-building">ONGOING</span></div><h3>LIVENESS AI</h3><h4>Multimodal Deepfake Detection System</h4><p>A multimodal AI system for detecting manipulated and synthetic media across images, videos, and audio.</p><div class="detection-list"><span><b>IMAGE</b>Visual artifact detection</span><span><b>VIDEO</b>Frame-level analysis · Temporal consistency · Deepfake detection</span><span><b>AUDIO</b>Spectral / acoustic analysis · Synthetic speech detection</span></div><div class="tags">Image <span>Video</span><span>Audio</span><span>Deep Learning</span><span>Computer Vision</span></div></div></article>
-      <article class="project project-reverse" data-project="04"><div class="project-visual visual-sycaudit"><div class="visual-top mono"><span>MODEL EVALUATION / 04</span><span>RELIABILITY STUDY</span></div><div class="flow"><span>USER PROMPT</span><i>↓</i><span>LLM RESPONSE</span><i>↓</i><span>AGREEMENT / FALSE-PREMISE ANALYSIS</span><i>↓</i><span>FACTUAL CONSISTENCY</span><i>↓</i><strong>EVALUATION <b>→</b> SYCOPHANCY INSIGHT</strong></div><div class="visual-caption mono">ASK BETTER QUESTIONS OF MODELS.</div></div><div class="project-info"><div class="project-meta mono"><span>04 / LLM · AI EVALUATION · NLP · RESEARCH</span><span class="status status-research">ONGOING</span></div><h3>SYCAUDIT</h3><h4>LLM Sycophancy &amp; Reliability Evaluation</h4><p>An AI evaluation system designed to study sycophantic behavior in large language models — when models may agree with users or reinforce false premises instead of providing accurate, evidence-based responses.</p><div class="tags">LLM <span>NLP</span><span>AI Evaluation</span><span>Research</span></div></div></article>
-      <article class="project" data-project="05"><div class="project-visual visual-diabetes"><div class="visual-top mono"><span>CLASSIFICATION / 05</span><span>MODEL PIPELINE</span></div><div class="chart"><div class="chart-y mono">RISK<br>CLASS</div><div class="chart-bars"><span style="--h:35%"></span><span style="--h:59%"></span><span style="--h:47%"></span><span style="--h:78%"></span><span style="--h:66%"></span><span style="--h:91%"></span><span style="--h:73%"></span><span style="--h:100%"></span></div><div class="chart-labels mono"><span>FEATURES</span><span>CLASSIFIER</span><span>EVALUATION</span></div></div><div class="visual-caption mono">DATA → PREPROCESSING → PREDICTION</div></div><div class="project-info"><div class="project-meta mono"><span>05 / MACHINE LEARNING · DATA</span><span class="status status-built">BUILT</span></div><h3>DIABETES RISK<br>CLASSIFICATION</h3><h4>Machine Learning Classification System</h4><p>A machine learning pipeline for binary diabetes-risk classification covering data preprocessing, class imbalance handling, model training, evaluation, and prediction.</p><div class="tags">Python <span>Pandas</span><span>Scikit-learn</span><span>SMOTE</span><span>Random Forest</span><span>XGBoost</span></div><p class="small-note">A learning project; not intended for clinical use.</p></div></article>
-      
-      <article class="project" data-project="06"><div class="project-visual visual-driver"><div class="visual-top mono"><span>REAL-TIME VISION / 06</span><span>ALERT SYSTEM</span></div><div class="driver-eye"><div class="eye-ring"><i></i></div><div class="eye-signal"></div></div><div class="driver-status mono"><span>ATTENTION SIGNAL</span><b>MONITORING</b></div><div class="visual-caption mono">OBSERVE · DETECT · ALERT</div></div><div class="project-info"><div class="project-meta mono"><span>06 / COMPUTER VISION</span><span class="status status-built">BUILT</span></div><h3>DRIVER DROWSINESS<br>DETECTION</h3><h4>Real-Time Computer Vision System</h4><p>A computer vision system that analyzes facial and eye behavior in real time to identify signs of driver drowsiness and trigger an alert.</p><div class="tags">Python <span>OpenCV</span><span>Computer Vision</span><span>Image Processing</span></div></div></article>
-    </div></section>
-    <section class="section certifications" id="certifications"><div class="section-head"><span class="section-number mono">04 / LEARNING</span><h2><span class="text-rise"><span>Certifications</span></span><br><span class="text-rise"><span>&amp; study.</span></span></h2></div><div class="cert-list"><div class="cert" data-cert="javaProgramming"><span class="mono">01</span><h3>Java Programming</h3><p>NPTEL</p><span class="cert-mark">↗</span></div><div class="cert" data-cert="designAnalysisAlgorithms"><span class="mono">02</span><h3>Design &amp; Analysis of Algorithms</h3><p>NPTEL</p><span class="cert-mark">↗</span></div><div class="cert" data-cert="python"><span class="mono">03</span><h3>Python</h3><p>GeeksforGeeks</p><span class="cert-mark">↗</span></div><div class="cert" data-cert="machineLearning"><span class="mono">04</span><h3>Machine Learning</h3><p>Andrew Ng · Coursera</p><span class="cert-mark">↗</span></div></div><p class="cert-note mono">CLICK A CERTIFICATE TO VIEW IT</p></section>
-    <section class="section contact" id="contact"><div class="contact-top mono"><span>05 / CONTACT</span><span>MUMBAI, INDIA</span></div><p class="eyebrow">OPEN TO IDEAS, PROJECTS &amp; OPPORTUNITIES</p><h2><span class="text-rise"><span>LET'S BUILD</span></span><br><span class="text-rise"><span>SOMETHING<span>.</span></span></span></h2><p class="contact-copy">Have an interesting idea, project, collaboration, or opportunity?</p><a class="button button-light" href="#contact-details">GET IN TOUCH <span>↗</span></a><div class="contact-links" id="contact-details"><span class="mono">EMAIL - ishikabhute7@gmail.com</span><span class="mono">GITHUB - ishikaa7</span><span class="mono">LINKEDIN - https://www.linkedin.com/in/ishika-bhute07/</span><p class="contact-note"></p></div><footer class="footer mono"><span>ISHIKA BHUTE</span><span>AI × SOFTWARE × PRODUCT</span><a href="#intro">BACK TO TOP ↑</a></footer></section>
-  </main><div class="cursor" aria-hidden="true"><span>EXPLORE ↗</span></div><script src="node_modules/gsap/dist/gsap.min.js" defer></script><script src="node_modules/gsap/dist/ScrollTrigger.min.js" defer></script><script src="script.js" defer></script>
-</body></html>
 
 
+    <!-- =========================================================
+         HERO / INTRO
+    ========================================================== -->
+
+    <section
+      class="hero section"
+      id="intro"
+      aria-labelledby="hero-title"
+    >
+
+      <div class="hero-top mono">
+
+        <span>
+          AI / ML
+          &nbsp;&nbsp; · &nbsp;&nbsp;
+          SOFTWARE ENGINEERING
+          &nbsp;&nbsp; · &nbsp;&nbsp;
+          PRODUCT DESIGN
+        </span>
+
+        <span>
+          BASED IN MUMBAI, INDIA
+        </span>
+
+      </div>
+
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          COMPUTER ENGINEERING · BUILDING WITH INTENT
+        </p>
+
+
+        <h1 id="hero-title">
+
+          I BUILD
+          <br>
+
+          <span class="hero-accent">
+            INTELLIGENT
+          </span>
+
+          <br>
+
+          PRODUCTS<span class="period">.</span>
+
+        </h1>
+
+
+        <div class="hero-bottom">
+
+          <div>
+
+            <p class="hero-lede">
+              Computer Engineering student exploring the
+              intersection of Artificial Intelligence,
+              software engineering, and product design.
+            </p>
+
+
+            <p class="hero-detail">
+              I enjoy turning complex problems into practical,
+              user-focused systems — from AI-powered applications
+              and machine learning models to full-stack products.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <a
+        class="scroll-note mono"
+        href="#about"
+      >
+        SCROLL TO EXPLORE
+        <span>↓</span>
+      </a>
+
+
+      <span class="hero-index mono">
+        01 — 06
+      </span>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         ABOUT
+    ========================================================== -->
+
+    <section
+      class="section about"
+      id="about"
+    >
+
+      <div class="section-head">
+
+        <span class="section-number mono">
+          01 / ABOUT
+        </span>
+
+
+        <h2>
+
+          <span class="text-rise">
+            <span>
+              Curiosity,
+            </span>
+          </span>
+
+          <br>
+
+          <span class="text-rise">
+            <span>
+              made tangible.
+            </span>
+          </span>
+
+        </h2>
+
+      </div>
+
+
+      <div class="about-content">
+
+        <div class="about-text">
+
+          <p class="lead">
+            I'm Ishika Bhute, a Computer Engineering student
+            interested in building technology that solves
+            real problems.
+          </p>
+
+
+          <p>
+            My interests sit at the intersection of Artificial
+            Intelligence, software engineering, and product
+            design. I enjoy working across the stack —
+            understanding a problem, designing the experience,
+            building the system, and experimenting with the
+            technology behind it.
+          </p>
+
+
+          <p>
+            I've worked on projects involving machine learning,
+            computer vision, generative AI, full-stack development,
+            and data-driven applications. I'm particularly
+            interested in how intelligent systems can be turned
+            into products that are useful, scalable, and easy
+            to use.
+          </p>
+
+
+          <p>
+            Currently, I'm strengthening my foundations in data
+            structures and algorithms, machine learning, systems,
+            and modern web technologies while building projects
+            that challenge me beyond coursework.
+          </p>
+
+        </div>
+
+
+        <aside class="explore">
+
+          <h3 class="mono">
+            CURRENTLY EXPLORING
+          </h3>
+
+
+          <ul>
+
+            <li>
+              Artificial Intelligence
+            </li>
+
+            <li>
+              Machine Learning
+            </li>
+
+            <li>
+              Generative AI
+            </li>
+
+            <li>
+              Full-Stack Development
+            </li>
+
+            <li>
+              Product Design
+            </li>
+
+            <li>
+              Computer Vision
+            </li>
+
+          </ul>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         TECHNICAL SKILLS
+    ========================================================== -->
+
+    <section
+      class="section skills"
+      id="skills"
+    >
+
+      <div class="section-head">
+
+        <span class="section-number mono">
+          02 / TOOLKIT
+        </span>
+
+
+        <h2>
+
+          <span class="text-rise">
+            <span>
+              Technical
+            </span>
+          </span>
+
+          <br>
+
+          <span class="text-rise">
+            <span>
+              skills.
+            </span>
+          </span>
+
+        </h2>
+
+
+        <p class="section-intro">
+          A growing toolkit for moving from a clear problem
+          to a working product.
+        </p>
+
+      </div>
+
+
+      <div class="skill-groups">
+
+
+        <div class="skill-row">
+
+          <h3 class="mono">
+            PROGRAMMING
+          </h3>
+
+          <p>
+            Python
+            <span>·</span>
+            Java
+            <span>·</span>
+            C
+            <span>·</span>
+            JavaScript
+            <span>·</span>
+            TypeScript
+            <span>·</span>
+            SQL
+          </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+          <h3 class="mono">
+            AI / MACHINE LEARNING
+          </h3>
+
+          <p>
+            Machine Learning
+            <span>·</span>
+            Deep Learning
+            <span>·</span>
+            Generative AI
+            <span>·</span>
+            Computer Vision
+            <span>·</span>
+            Data Analysis
+            <span>·</span>
+            NumPy
+            <span>·</span>
+            Pandas
+            <span>·</span>
+            Matplotlib
+            <span>·</span>
+            Scikit-learn
+          </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+          <h3 class="mono">
+            WEB DEVELOPMENT
+          </h3>
+
+          <p>
+            React
+            <span>·</span>
+            Next.js
+            <span>·</span>
+            Tailwind CSS
+            <span>·</span>
+            FastAPI
+            <span>·</span>
+            Node.js
+            <span>·</span>
+            REST APIs
+          </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+          <h3 class="mono">
+            DATABASES
+          </h3>
+
+          <p>
+            MySQL
+            <span>·</span>
+            PostgreSQL
+            <span>·</span>
+            Supabase
+          </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+          <h3 class="mono">
+            TOOLS
+          </h3>
+
+          <p>
+            Git
+            <span>·</span>
+            GitHub
+            <span>·</span>
+            VS Code
+            <span>·</span>
+            Figma
+          </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+          <h3 class="mono">
+            CORE COMPUTER SCIENCE
+          </h3>
+
+          <p>
+            Data Structures &amp; Algorithms
+            <span>·</span>
+            Object-Oriented Programming
+            <span>·</span>
+            DBMS
+            <span>·</span>
+            Computer Networks
+            <span>·</span>
+            Operating Systems
+            <span>·</span>
+            Automata Theory
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         PROJECTS
+         GSAP / SCROLLTRIGGER ANIMATION TARGET
+    ========================================================== -->
+
+    <section
+      class="section projects"
+      id="projects"
+    >
+
+      <div class="section-head projects-heading">
+
+        <span class="section-number mono">
+          SELECTED WORK
+        </span>
+
+
+        <h2>
+
+          <span class="text-rise">
+            <span>
+              A collection of systems,
+            </span>
+          </span>
+
+          <br>
+
+          <span class="text-rise">
+            <span>
+              experiments and products
+            </span>
+          </span>
+
+          <br>
+
+          <span class="text-rise">
+            <span>
+              I've built.
+            </span>
+          </span>
+
+        </h2>
+
+
+        <p class="section-intro mono">
+          SCROLL TO EXPLORE ↓
+        </p>
+
+      </div>
+
+
+
+      <!-- =======================================================
+           SPIRAL PATH
+      ======================================================== -->
+
+      <div
+        class="path-wrap"
+        aria-hidden="true"
+      >
+
+        <svg
+          viewBox="0 0 100 900"
+          preserveAspectRatio="none"
+        >
+
+          <path
+            class="path-base"
+            d="
+              M50 0
+              C50 70 12 55 12 120
+              S88 185 88 250
+              S12 315 12 380
+              S88 445 88 510
+              S12 575 12 640
+              S88 705 88 770
+              S50 820 50 900
+            "
+          />
+
+
+          <path
+            class="path-progress"
+            d="
+              M50 0
+              C50 70 12 55 12 120
+              S88 185 88 250
+              S12 315 12 380
+              S88 445 88 510
+              S12 575 12 640
+              S88 705 88 770
+              S50 820 50 900
+            "
+          />
+
+        </svg>
+
+      </div>
+
+
+
+      <!-- =======================================================
+           PROJECT LIST
+      ======================================================== -->
+
+      <div class="project-list">
+
+
+        <!-- =====================================================
+             PROJECT 01 — VRIDDHI
+        ====================================================== -->
+
+        <article
+          class="project"
+          data-project="01"
+        >
+
+          <div class="project-visual visual-vriddhi">
+
+            <div class="visual-top mono">
+
+              <span>
+                MARKET SIGNALS / 01
+              </span>
+
+              <span>
+                INTELLIGENCE PLATFORM
+              </span>
+
+            </div>
+
+
+            <div class="visual-orbit orbit-one"></div>
+
+            <div class="visual-orbit orbit-two"></div>
+
+
+            <div class="visual-core">
+              V<span>↗</span>
+            </div>
+
+
+            <div class="visual-caption mono">
+              LOCAL CONTEXT. CLEARER DECISIONS.
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div class="project-meta mono">
+
+              <span>
+                01 / AI · FULL STACK · PRODUCT
+              </span>
+
+              <span class="status status-building">
+                BUILDING
+              </span>
+
+            </div>
+
+
+            <h3>
+              VRIDDHI
+            </h3>
+
+
+            <h4>
+              Hyper-Local AI Market Intelligence &amp;
+              Advisory Platform
+            </h4>
+
+
+            <p>
+              An AI-powered decision-support platform
+              combining hyper-local market intelligence,
+              opportunity analysis, financial planning,
+              competitor insights, and AI-driven advisory
+              to help small businesses and rural entrepreneurs
+              make informed decisions.
+            </p>
+
+
+            <div class="tags">
+
+              Next.js
+
+              <span>
+                React
+              </span>
+
+              <span>
+                FastAPI
+              </span>
+
+              <span>
+                Python
+              </span>
+
+              <span>
+                Supabase
+              </span>
+
+              <span>
+                Gemini
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =====================================================
+             PROJECT 02 — PATHWAY GEN AI
+        ====================================================== -->
+
+        <article
+          class="project project-reverse"
+          data-project="02"
+        >
+
+          <div class="project-visual visual-pathway">
+
+            <div class="visual-top mono">
+
+              <span>
+                BRAND STUDIO / 02
+              </span>
+
+              <span>
+                GENERATIVE IDENTITY
+              </span>
+
+            </div>
+
+
+            <div class="brand-card">
+
+              <span class="mono">
+                BRAND / CONCEPT 004
+              </span>
+
+              <b>
+                form<span>folk</span>
+              </b>
+
+              <i>
+                Objects for everyday rituals.
+              </i>
+
+
+              <div class="brand-swatches">
+
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+
+              </div>
+
+            </div>
+
+
+            <div class="visual-caption mono">
+              INPUT → IDENTITY
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div class="project-meta mono">
+
+              <span>
+                02 / GENERATIVE AI · PRODUCT · FRONTEND
+              </span>
+
+              <span class="status status-built">
+                BUILT
+              </span>
+
+            </div>
+
+
+            <h3>
+              PATHWAY GEN AI
+            </h3>
+
+
+            <h4>
+              AI-Powered Brand Identity Generator
+            </h4>
+
+
+            <p>
+              A generative AI platform that transforms
+              business inputs into structured brand identities,
+              helping users explore brand names, positioning,
+              taglines, and visual direction through an
+              interactive product experience.
+            </p>
+
+
+            <div class="tags">
+
+              React
+
+              <span>
+                Tailwind CSS
+              </span>
+
+              <span>
+                Generative AI
+              </span>
+
+              <span>
+                JavaScript
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =====================================================
+             PROJECT 03 — LIVENESS AI
+        ====================================================== -->
+
+        <article
+          class="project"
+          data-project="03"
+        >
+
+          <div class="project-visual visual-liveness">
+
+            <div class="visual-top mono">
+
+              <span>
+                MEDIA INTEGRITY / 03
+              </span>
+
+              <span>
+                MULTIMODAL ANALYSIS
+              </span>
+
+            </div>
+
+
+            <div class="scan-frame">
+
+              <div class="scan-grid"></div>
+
+              <div class="scan-face">
+
+                <i></i>
+                <i></i>
+                <b></b>
+
+              </div>
+
+              <div class="scan-line"></div>
+
+
+              <span class="scan-label mono">
+                FRAME ANALYSIS / ACTIVE
+              </span>
+
+            </div>
+
+
+            <div class="pipeline mono">
+
+              <span>
+                IMAGE
+              </span>
+
+              <span>
+                VIDEO
+              </span>
+
+              <span>
+                AUDIO
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div class="project-meta mono">
+
+              <span>
+                03 / DEEP LEARNING · COMPUTER VISION · AUDIO AI
+              </span>
+
+              <span class="status status-building">
+                ONGOING
+              </span>
+
+            </div>
+
+
+            <h3>
+              LIVENESS AI
+            </h3>
+
+
+            <h4>
+              Multimodal Deepfake Detection System
+            </h4>
+
+
+            <p>
+              A multimodal AI system for detecting manipulated
+              and synthetic media across images, videos,
+              and audio.
+            </p>
+
+
+            <div class="detection-list">
+
+              <span>
+                <b>IMAGE</b>
+                Visual artifact detection
+              </span>
+
+              <span>
+                <b>VIDEO</b>
+                Frame-level analysis · Temporal consistency
+                · Deepfake detection
+              </span>
+
+              <span>
+                <b>AUDIO</b>
+                Spectral / acoustic analysis · Synthetic
+                speech detection
+              </span>
+
+            </div>
+
+
+            <div class="tags">
+
+              Image
+
+              <span>
+                Video
+              </span>
+
+              <span>
+                Audio
+              </span>
+
+              <span>
+                Deep Learning
+              </span>
+
+              <span>
+                Computer Vision
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =====================================================
+             PROJECT 04 — SYCAUDIT
+        ====================================================== -->
+
+        <article
+          class="project project-reverse"
+          data-project="04"
+        >
+
+          <div class="project-visual visual-sycaudit">
+
+            <div class="visual-top mono">
+
+              <span>
+                MODEL EVALUATION / 04
+              </span>
+
+              <span>
+                RELIABILITY STUDY
+              </span>
+
+            </div>
+
+
+            <div class="flow">
+
+              <span>
+                USER PROMPT
+              </span>
+
+              <i>↓</i>
+
+              <span>
+                LLM RESPONSE
+              </span>
+
+              <i>↓</i>
+
+              <span>
+                AGREEMENT / FALSE-PREMISE ANALYSIS
+              </span>
+
+              <i>↓</i>
+
+              <span>
+                FACTUAL CONSISTENCY
+              </span>
+
+              <i>↓</i>
+
+              <strong>
+                EVALUATION
+                <b>→</b>
+                SYCOPHANCY INSIGHT
+              </strong>
+
+            </div>
+
+
+            <div class="visual-caption mono">
+              ASK BETTER QUESTIONS OF MODELS.
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div class="project-meta mono">
+
+              <span>
+                04 / LLM · AI EVALUATION · NLP · RESEARCH
+              </span>
+
+              <span class="status status-research">
+                ONGOING
+              </span>
+
+            </div>
+
+
+            <h3>
+              SYCAUDIT
+            </h3>
+
+
+            <h4>
+              LLM Sycophancy &amp; Reliability Evaluation
+            </h4>
+
+
+            <p>
+              An AI evaluation system designed to study
+              sycophantic behavior in large language models —
+              when models may agree with users or reinforce
+              false premises instead of providing accurate,
+              evidence-based responses.
+            </p>
+
+
+            <div class="tags">
+
+              LLM
+
+              <span>
+                NLP
+              </span>
+
+              <span>
+                AI Evaluation
+              </span>
+
+              <span>
+                Research
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =====================================================
+             PROJECT 05 — DIABETES
+        ====================================================== -->
+
+        <article
+          class="project"
+          data-project="05"
+        >
+
+          <div class="project-visual visual-diabetes">
+
+            <div class="visual-top mono">
+
+              <span>
+                CLASSIFICATION / 05
+              </span>
+
+              <span>
+                MODEL PIPELINE
+              </span>
+
+            </div>
+
+
+            <div class="chart">
+
+              <div class="chart-y mono">
+                RISK
+                <br>
+                CLASS
+              </div>
+
+
+              <div class="chart-bars">
+
+                <span style="--h:35%"></span>
+                <span style="--h:59%"></span>
+                <span style="--h:47%"></span>
+                <span style="--h:78%"></span>
+                <span style="--h:66%"></span>
+                <span style="--h:91%"></span>
+                <span style="--h:73%"></span>
+                <span style="--h:100%"></span>
+
+              </div>
+
+
+              <div class="chart-labels mono">
+
+                <span>
+                  FEATURES
+                </span>
+
+                <span>
+                  CLASSIFIER
+                </span>
+
+                <span>
+                  EVALUATION
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <div class="visual-caption mono">
+              DATA → PREPROCESSING → PREDICTION
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div class="project-meta mono">
+
+              <span>
+                05 / MACHINE LEARNING · DATA
+              </span>
+
+              <span class="status status-built">
+                BUILT
+              </span>
+
+            </div>
+
+
+            <h3>
+              DIABETES RISK
+              <br>
+              CLASSIFICATION
+            </h3>
+
+
+            <h4>
+              Machine Learning Classification System
+            </h4>
+
+
+            <p>
+              A machine learning pipeline for binary
+              diabetes-risk classification covering data
+              preprocessing, class imbalance handling,
+              model training, evaluation, and prediction.
+            </p>
+
+
+            <div class="tags">
+
+              Python
+
+              <span>
+                Pandas
+              </span>
+
+              <span>
+                Scikit-learn
+              </span>
+
+              <span>
+                SMOTE
+              </span>
+
+              <span>
+                Random Forest
+              </span>
+
+              <span>
+                XGBoost
+              </span>
+
+            </div>
+
+
+            <p class="small-note">
+              A learning project; not intended for clinical use.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =====================================================
+             PROJECT 06 — DRIVER DROWSINESS
+        ====================================================== -->
+
+        <article
+          class="project"
+          data-project="06"
+        >
+
+          <div class="project-visual visual-driver">
+
+            <div class="visual-top mono">
+
+              <span>
+                REAL-TIME VISION / 06
+              </span>
+
+              <span>
+                ALERT SYSTEM
+              </span>
+
+            </div>
+
+
+            <div class="driver-eye">
+
+              <div class="eye-ring">
+                <i></i>
+              </div>
+
+              <div class="eye-signal"></div>
+
+            </div>
+
+
+            <div class="driver-status mono">
+
+              <span>
+                ATTENTION SIGNAL
+              </span>
+
+              <b>
+                MONITORING
+              </b>
+
+            </div>
+
+
+            <div class="visual-caption mono">
+              OBSERVE · DETECT · ALERT
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div class="project-meta mono">
+
+              <span>
+                06 / COMPUTER VISION
+              </span>
+
+              <span class="status status-built">
+                BUILT
+              </span>
+
+            </div>
+
+
+            <h3>
+              DRIVER DROWSINESS
+              <br>
+              DETECTION
+            </h3>
+
+
+            <h4>
+              Real-Time Computer Vision System
+            </h4>
+
+
+            <p>
+              A computer vision system that analyzes facial
+              and eye behavior in real time to identify signs
+              of driver drowsiness and trigger an alert.
+            </p>
+
+
+            <div class="tags">
+
+              Python
+
+              <span>
+                OpenCV
+              </span>
+
+              <span>
+                Computer Vision
+              </span>
+
+              <span>
+                Image Processing
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         CERTIFICATIONS
+    ========================================================== -->
+
+    <section
+      class="section certifications"
+      id="certifications"
+    >
+
+      <div class="section-head">
+
+        <span class="section-number mono">
+          04 / LEARNING
+        </span>
+
+
+        <h2>
+
+          <span class="text-rise">
+            <span>
+              Certifications
+            </span>
+          </span>
+
+          <br>
+
+          <span class="text-rise">
+            <span>
+              &amp; study.
+            </span>
+          </span>
+
+        </h2>
+
+      </div>
+
+
+      <div class="cert-list">
+
+
+        <div
+          class="cert"
+          data-cert="javaProgramming"
+        >
+
+          <span class="mono">
+            01
+          </span>
+
+          <h3>
+            Java Programming
+          </h3>
+
+          <p>
+            NPTEL
+          </p>
+
+          <span class="cert-mark">
+            ↗
+          </span>
+
+        </div>
+
+
+        <div
+          class="cert"
+          data-cert="designAnalysisAlgorithms"
+        >
+
+          <span class="mono">
+            02
+          </span>
+
+          <h3>
+            Design &amp; Analysis of Algorithms
+          </h3>
+
+          <p>
+            NPTEL
+          </p>
+
+          <span class="cert-mark">
+            ↗
+          </span>
+
+        </div>
+
+
+        <div
+          class="cert"
+          data-cert="python"
+        >
+
+          <span class="mono">
+            03
+          </span>
+
+          <h3>
+            Python
+          </h3>
+
+          <p>
+            GeeksforGeeks
+          </p>
+
+          <span class="cert-mark">
+            ↗
+          </span>
+
+        </div>
+
+
+        <div
+          class="cert"
+          data-cert="machineLearning"
+        >
+
+          <span class="mono">
+            04
+          </span>
+
+          <h3>
+            Machine Learning
+          </h3>
+
+          <p>
+            Andrew Ng · Coursera
+          </p>
+
+          <span class="cert-mark">
+            ↗
+          </span>
+
+        </div>
+
+
+      </div>
+
+
+      <p class="cert-note mono">
+        CLICK A CERTIFICATE TO VIEW IT
+      </p>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         CONTACT
+    ========================================================== -->
+
+    <section
+      class="section contact"
+      id="contact"
+    >
+
+      <div class="contact-top mono">
+
+        <span>
+          05 / CONTACT
+        </span>
+
+        <span>
+          MUMBAI, INDIA
+        </span>
+
+      </div>
+
+
+      <p class="eyebrow">
+        OPEN TO IDEAS, PROJECTS &amp; OPPORTUNITIES
+      </p>
+
+
+      <h2>
+
+        <span class="text-rise">
+          <span>
+            LET'S BUILD
+          </span>
+        </span>
+
+        <br>
+
+        <span class="text-rise">
+          <span>
+            SOMETHING<span>.</span>
+          </span>
+        </span>
+
+      </h2>
+
+
+      <p class="contact-copy">
+        Have an interesting idea, project, collaboration,
+        or opportunity?
+      </p>
+
+
+      <a
+        class="button button-light"
+        href="#contact-details"
+      >
+        GET IN TOUCH
+        <span>↗</span>
+      </a>
+
+
+      <div
+        class="contact-links"
+        id="contact-details"
+      >
+
+        <span class="mono">
+          EMAIL - ishikabhute7@gmail.com
+        </span>
+
+
+        <span class="mono">
+          GITHUB - ishikaa7
+        </span>
+
+
+        <span class="mono">
+          LINKEDIN -
+          https://www.linkedin.com/in/ishika-bhute07/
+        </span>
+
+
+        <p class="contact-note"></p>
+
+      </div>
+
+
+      <footer class="footer mono">
+
+        <span>
+          ISHIKA BHUTE
+        </span>
+
+        <span>
+          AI × SOFTWARE × PRODUCT
+        </span>
+
+        <a href="#intro">
+          BACK TO TOP ↑
+        </a>
+
+      </footer>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================================================
+       CUSTOM CURSOR
+  ========================================================== -->
+
+  <div
+    class="cursor"
+    aria-hidden="true"
+  >
+    <span>
+      EXPLORE ↗
+    </span>
+  </div>
+
+
+
+  <!-- =========================================================
+       GSAP + SCROLLTRIGGER
+       
+       IMPORTANT:
+       Do NOT use node_modules paths here on GitHub Pages.
+       
+       GSAP must load first.
+       ScrollTrigger must load second.
+       script.js must load last.
+  ========================================================== -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"
+    defer
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"
+    defer
+  ></script>
+
+  <script
+    src="script.js"
+    defer
+  ></script>
+
+
+</body>
+
+</html>
